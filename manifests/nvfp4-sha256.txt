@@ -1,0 +1,1 @@
+7827805ae9f2d20cc71e46bf05d9cb045e222d3fa0429363c324bbf6d3cab959  /home/mobrienv/code/nemotron35-bench/models/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4.gguf

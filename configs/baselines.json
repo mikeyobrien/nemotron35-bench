@@ -1,0 +1,10 @@
+[
+  {"name":"cpu_all_t12","args":["--device","CUDA0","-ngl","0","-fit","off","-t","12","-tb","12","-c","32768","-b","2048","-ub","512","-fa","on","-ctk","q8_0","-ctv","q8_0","-np","1"]},
+  {"name":"cuda_cpu_moe_t10","args":["--device","CUDA0","-ngl","all","-cmoe","-fit","off","-t","10","-tb","12","-c","32768","-b","2048","-ub","512","-fa","on","-ctk","q8_0","-ctv","q8_0","-np","1"]},
+  {"name":"cuda_cpu_moe_t12","args":["--device","CUDA0","-ngl","all","-cmoe","-fit","off","-t","12","-tb","12","-c","32768","-b","2048","-ub","512","-fa","on","-ctk","q8_0","-ctv","q8_0","-np","1"]},
+  {"name":"cuda_cpu_moe_t14","args":["--device","CUDA0","-ngl","all","-cmoe","-fit","off","-t","14","-tb","12","-c","32768","-b","2048","-ub","512","-fa","on","-ctk","q8_0","-ctv","q8_0","-np","1"]},
+  {"name":"cuda_cpu_moe_t24","args":["--device","CUDA0","-ngl","all","-cmoe","-fit","off","-t","24","-tb","12","-c","32768","-b","2048","-ub","512","-fa","on","-ctk","q8_0","-ctv","q8_0","-np","1"]},
+  {"name":"naive_ngl20","args":["--device","CUDA0","-ngl","20","-fit","off","-t","12","-tb","12","-c","32768","-b","2048","-ub","512","-fa","on","-ctk","q8_0","-ctv","q8_0","-np","1"]},
+  {"name":"naive_ngl28","args":["--device","CUDA0","-ngl","28","-fit","off","-t","12","-tb","12","-c","32768","-b","2048","-ub","512","-fa","on","-ctk","q8_0","-ctv","q8_0","-np","1"]},
+  {"name":"auto_fit_1024","args":["--device","CUDA0","-fit","on","-fitt","1024","-t","12","-tb","12","-c","32768","-b","2048","-ub","512","-fa","on","-ctk","q8_0","-ctv","q8_0","-np","1"]}
+]

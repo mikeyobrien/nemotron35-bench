@@ -1,0 +1,47 @@
+[
+  {
+    "completion_tokens": 256,
+    "content_chars": 0,
+    "decode_tps": 42.91695836786808,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/short.txt",
+    "prompt_ms": 4492.404,
+    "prompt_tokens": 1365,
+    "prompt_tps": 303.84622576242026,
+    "reasoning_chars": 1096,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_125849_thinking_tool_early8/short-on-r1.json",
+    "thinking": "on",
+    "tool_calls": [],
+    "tools": true,
+    "wall_ms": 10501.43,
+    "workload": "short",
+    "rep": 1
+  },
+  {
+    "completion_tokens": 85,
+    "content_chars": 0,
+    "decode_tps": 44.228240616198256,
+    "finish_reason": "tool_calls",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/tool.txt",
+    "prompt_ms": 726.052,
+    "prompt_tokens": 65,
+    "prompt_tps": 89.52526816261094,
+    "reasoning_chars": 81,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_125849_thinking_tool_early8/tool-on-r1.json",
+    "thinking": "on",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{\"path\":\"src/models/nemotron-h.cpp\",\"line_start\":260,\"line_end\":310}",
+          "name": "read_file"
+        },
+        "id": "ZBbVJ28tmyfRY14KnCgK1qT6ZKvqHc9i",
+        "type": "function"
+      }
+    ],
+    "tools": true,
+    "wall_ms": 2707.18,
+    "workload": "tool",
+    "rep": 1
+  }
+]

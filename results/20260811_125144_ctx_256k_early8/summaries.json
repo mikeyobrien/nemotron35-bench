@@ -1,0 +1,20 @@
+[
+  {
+    "completion_tokens": 256,
+    "content_chars": 1148,
+    "decode_tps": 45.43889356294174,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/short.txt",
+    "prompt_ms": 3213.071,
+    "prompt_tokens": 1062,
+    "prompt_tps": 330.5249090356235,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_125144_ctx_256k_early8/short-off-r1.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 8879.15,
+    "workload": "short",
+    "rep": 1
+  }
+]

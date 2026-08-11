@@ -1,0 +1,191 @@
+[
+  {
+    "completion_tokens": 256,
+    "content_chars": 1055,
+    "decode_tps": 46.804812778006415,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/short.txt",
+    "prompt_ms": 6338.992,
+    "prompt_tokens": 1081,
+    "prompt_tps": 170.5318448106576,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_135744_final_q4ks_early8_64k/short-off-r1.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 11847.97,
+    "workload": "short",
+    "rep": 1
+  },
+  {
+    "completion_tokens": 256,
+    "content_chars": 1144,
+    "decode_tps": 44.894866219436636,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/short.txt",
+    "prompt_ms": 3386.017,
+    "prompt_tokens": 1076,
+    "prompt_tps": 317.7774949151171,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_135744_final_q4ks_early8_64k/short-off-r2.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 9187.68,
+    "workload": "short",
+    "rep": 2
+  },
+  {
+    "completion_tokens": 256,
+    "content_chars": 1153,
+    "decode_tps": 47.827215217424204,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/short.txt",
+    "prompt_ms": 3162.532,
+    "prompt_tokens": 1076,
+    "prompt_tps": 340.2337114691646,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_135744_final_q4ks_early8_64k/short-off-r3.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 8592.46,
+    "workload": "short",
+    "rep": 3
+  },
+  {
+    "completion_tokens": 512,
+    "content_chars": 1758,
+    "decode_tps": 42.76634075151153,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/coding.txt",
+    "prompt_ms": 35643.763,
+    "prompt_tokens": 15973,
+    "prompt_tps": 448.1288914416809,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_135744_final_q4ks_early8_64k/coding-off-r1.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 47793.54,
+    "workload": "coding",
+    "rep": 1
+  },
+  {
+    "completion_tokens": 512,
+    "content_chars": 1693,
+    "decode_tps": 45.183050037668714,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/coding.txt",
+    "prompt_ms": 39617.367,
+    "prompt_tokens": 15973,
+    "prompt_tps": 403.1817662188403,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_135744_final_q4ks_early8_64k/coding-off-r2.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 51169.47,
+    "workload": "coding",
+    "rep": 2
+  },
+  {
+    "completion_tokens": 512,
+    "content_chars": 1546,
+    "decode_tps": 43.80876481615421,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/coding.txt",
+    "prompt_ms": 38717.573,
+    "prompt_tokens": 15973,
+    "prompt_tps": 412.551685509833,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_135744_final_q4ks_early8_64k/coding-off-r3.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 50499.62,
+    "workload": "coding",
+    "rep": 3
+  },
+  {
+    "completion_tokens": 57,
+    "content_chars": 0,
+    "decode_tps": 48.151164244465996,
+    "finish_reason": "tool_calls",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/tool.txt",
+    "prompt_ms": 2172.014,
+    "prompt_tokens": 391,
+    "prompt_tps": 180.01725587404133,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_135744_final_q4ks_early8_64k/tool-off-r1.json",
+    "thinking": "off",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{\"path\":\"src/models/nemotron-h.cpp\",\"line_start\":260,\"line_end\":310}",
+          "name": "read_file"
+        },
+        "id": "rZspg68ZcWaUyni0cWcVEtEfBBtFke9l",
+        "type": "function"
+      }
+    ],
+    "tools": true,
+    "wall_ms": 3468.86,
+    "workload": "tool",
+    "rep": 1
+  },
+  {
+    "completion_tokens": 57,
+    "content_chars": 0,
+    "decode_tps": 46.27239340301794,
+    "finish_reason": "tool_calls",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/tool.txt",
+    "prompt_ms": 942.413,
+    "prompt_tokens": 83,
+    "prompt_tps": 88.07179018116261,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_135744_final_q4ks_early8_64k/tool-off-r2.json",
+    "thinking": "off",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{\"path\":\"src/models/nemotron-h.cpp\",\"line_start\":260,\"line_end\":310}",
+          "name": "read_file"
+        },
+        "id": "5Z1kYefwj3uRZPjmGpER5DTk5p5XVVOy",
+        "type": "function"
+      }
+    ],
+    "tools": true,
+    "wall_ms": 2182.16,
+    "workload": "tool",
+    "rep": 2
+  },
+  {
+    "completion_tokens": 57,
+    "content_chars": 0,
+    "decode_tps": 49.49944769037314,
+    "finish_reason": "tool_calls",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/tool.txt",
+    "prompt_ms": 1241.028,
+    "prompt_tokens": 83,
+    "prompt_tps": 66.88003816191093,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_135744_final_q4ks_early8_64k/tool-off-r3.json",
+    "thinking": "off",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{\"path\":\"src/models/nemotron-h.cpp\",\"line_start\":260,\"line_end\":310}",
+          "name": "read_file"
+        },
+        "id": "aXGy2zhZlBztCMfRPjxGEel2xCLwLQDV",
+        "type": "function"
+      }
+    ],
+    "tools": true,
+    "wall_ms": 2400.52,
+    "workload": "tool",
+    "rep": 3
+  }
+]

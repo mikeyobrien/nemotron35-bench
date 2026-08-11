@@ -1,0 +1,191 @@
+[
+  {
+    "completion_tokens": 256,
+    "content_chars": 1144,
+    "decode_tps": 42.82688203234969,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/short.txt",
+    "prompt_ms": 4047.834,
+    "prompt_tokens": 1078,
+    "prompt_tps": 266.3152688573692,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_130316_final_early8_64k/short-off-r1.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 10061.03,
+    "workload": "short",
+    "rep": 1
+  },
+  {
+    "completion_tokens": 256,
+    "content_chars": 1050,
+    "decode_tps": 43.30330463418096,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/short.txt",
+    "prompt_ms": 2527.607,
+    "prompt_tokens": 1073,
+    "prompt_tps": 424.5121967141253,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_130316_final_early8_64k/short-off-r2.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 8484.28,
+    "workload": "short",
+    "rep": 2
+  },
+  {
+    "completion_tokens": 256,
+    "content_chars": 1093,
+    "decode_tps": 42.49351973823992,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/short.txt",
+    "prompt_ms": 2634.529,
+    "prompt_tokens": 1073,
+    "prompt_tps": 407.2834271325159,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_130316_final_early8_64k/short-off-r3.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 8747.75,
+    "workload": "short",
+    "rep": 3
+  },
+  {
+    "completion_tokens": 512,
+    "content_chars": 1528,
+    "decode_tps": 40.734957284384976,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/coding.txt",
+    "prompt_ms": 30561.556,
+    "prompt_tokens": 15970,
+    "prompt_tps": 522.5519276570866,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_130316_final_early8_64k/coding-off-r1.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 43257.37,
+    "workload": "coding",
+    "rep": 1
+  },
+  {
+    "completion_tokens": 512,
+    "content_chars": 1512,
+    "decode_tps": 40.746443002649954,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/coding.txt",
+    "prompt_ms": 30154.434,
+    "prompt_tokens": 15970,
+    "prompt_tps": 529.6070223039172,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_130316_final_early8_64k/coding-off-r2.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 42808.24,
+    "workload": "coding",
+    "rep": 2
+  },
+  {
+    "completion_tokens": 512,
+    "content_chars": 1755,
+    "decode_tps": 38.95721280620978,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/coding.txt",
+    "prompt_ms": 30196.445,
+    "prompt_tokens": 15970,
+    "prompt_tps": 528.8702030984111,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_130316_final_early8_64k/coding-off-r3.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 43426.42,
+    "workload": "coding",
+    "rep": 3
+  },
+  {
+    "completion_tokens": 57,
+    "content_chars": 0,
+    "decode_tps": 43.43502463223107,
+    "finish_reason": "tool_calls",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/tool.txt",
+    "prompt_ms": 1743.979,
+    "prompt_tokens": 388,
+    "prompt_tps": 222.47974316204497,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_130316_final_early8_64k/tool-off-r1.json",
+    "thinking": "off",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{\"path\":\"src/models/nemotron-h.cpp\",\"line_start\":260,\"line_end\":310}",
+          "name": "read_file"
+        },
+        "id": "4hnXxbDewb5udrlCjweksK4sgEiBY3GK",
+        "type": "function"
+      }
+    ],
+    "tools": true,
+    "wall_ms": 3160.67,
+    "workload": "tool",
+    "rep": 1
+  },
+  {
+    "completion_tokens": 57,
+    "content_chars": 0,
+    "decode_tps": 43.011986006767216,
+    "finish_reason": "tool_calls",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/tool.txt",
+    "prompt_ms": 788.92,
+    "prompt_tokens": 80,
+    "prompt_tps": 101.40445165542769,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_130316_final_early8_64k/tool-off-r2.json",
+    "thinking": "off",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{\"path\":\"src/models/nemotron-h.cpp\",\"line_start\":260,\"line_end\":310}",
+          "name": "read_file"
+        },
+        "id": "oe3pxIZSrwGFBvpNdKg9ZGLnGo0IYNhk",
+        "type": "function"
+      }
+    ],
+    "tools": true,
+    "wall_ms": 2121.58,
+    "workload": "tool",
+    "rep": 2
+  },
+  {
+    "completion_tokens": 57,
+    "content_chars": 0,
+    "decode_tps": 40.354125147345655,
+    "finish_reason": "tool_calls",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/tool.txt",
+    "prompt_ms": 791.211,
+    "prompt_tokens": 80,
+    "prompt_tps": 101.11082884338059,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_130316_final_early8_64k/tool-off-r3.json",
+    "thinking": "off",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{\"path\":\"src/models/nemotron-h.cpp\",\"line_start\":260,\"line_end\":310}",
+          "name": "read_file"
+        },
+        "id": "We0c0T663wFXZCmwkzbwxpU79S8WGcak",
+        "type": "function"
+      }
+    ],
+    "tools": true,
+    "wall_ms": 2216.26,
+    "workload": "tool",
+    "rep": 3
+  }
+]

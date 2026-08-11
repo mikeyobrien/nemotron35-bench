@@ -1,0 +1,12 @@
+# Model weights are hosted on Hugging Face; never commit 42 GB of GGUFs
+models/
+*.gguf
+*.gguf.part
+
+# Local environment
+.venv/
+__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store

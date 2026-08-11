@@ -1,0 +1,13 @@
+{
+  "provider": "llama-local-nemotron35",
+  "baseURL": "http://127.0.0.1:8080/v1",
+  "api": "openai-completions",
+  "model": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+  "contextWindow": 65536,
+  "maxTokens": 4096,
+  "reasoning": {
+    "default": "off",
+    "chatTemplateKwarg": "enable_thinking",
+    "note": "Use thinking=true only for difficult planning/review turns; allow at least 512-1024 output tokens. Routine tool calls are faster and reliable with thinking=false."
+  }
+}

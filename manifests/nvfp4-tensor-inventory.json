@@ -1,0 +1,3336 @@
+{
+  "tensor_count": 510,
+  "total_tensor_bytes": 22451776956,
+  "categories_bytes": {
+    "attention": 280756224,
+    "embedding_output": 902823936,
+    "mamba": 1783751936,
+    "mtp": 2670679040,
+    "normalization": 569856,
+    "other": 4,
+    "routed_experts": 16523353088,
+    "router": 31665664,
+    "shared_expert": 258177208
+  },
+  "blocks": {
+    "0": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "1": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "2": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "3": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "4": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "5": {
+      "attention": 46792704,
+      "normalization": 10752
+    },
+    "6": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "7": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "8": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "9": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "10": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "11": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "12": {
+      "attention": 46792704,
+      "normalization": 10752
+    },
+    "13": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "14": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "15": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "16": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "17": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "18": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "19": {
+      "attention": 46792704,
+      "normalization": 10752
+    },
+    "20": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "21": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "22": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "23": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "24": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "25": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "26": {
+      "attention": 46792704,
+      "normalization": 10752
+    },
+    "27": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "28": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "29": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "30": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "31": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "32": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "33": {
+      "attention": 46792704,
+      "normalization": 10752
+    },
+    "34": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "35": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "36": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "37": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "38": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "39": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "40": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "41": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "42": {
+      "attention": 46792704,
+      "normalization": 10752
+    },
+    "43": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "44": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "45": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "46": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "47": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "48": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "49": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "50": {
+      "mamba": 77554432,
+      "normalization": 10752
+    },
+    "51": {
+      "shared_expert": 11225096,
+      "routed_experts": 718406656,
+      "router": 1376768,
+      "normalization": 10752
+    },
+    "52": {
+      "mtp": 2670679040
+    }
+  },
+  "tensors": [
+    {
+      "index": 0,
+      "name": "blk.1.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 0
+    },
+    {
+      "index": 1,
+      "name": "blk.1.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 5612544
+    },
+    {
+      "index": 2,
+      "name": "blk.1.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 5612576
+    },
+    {
+      "index": 3,
+      "name": "blk.1.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 11225120
+    },
+    {
+      "index": 4,
+      "name": "blk.3.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 11225152
+    },
+    {
+      "index": 5,
+      "name": "blk.3.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 16837696
+    },
+    {
+      "index": 6,
+      "name": "blk.3.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 16837728
+    },
+    {
+      "index": 7,
+      "name": "blk.3.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 22450272
+    },
+    {
+      "index": 8,
+      "name": "blk.6.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 22450304
+    },
+    {
+      "index": 9,
+      "name": "blk.6.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 28062848
+    },
+    {
+      "index": 10,
+      "name": "blk.6.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 28062880
+    },
+    {
+      "index": 11,
+      "name": "blk.6.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 33675424
+    },
+    {
+      "index": 12,
+      "name": "blk.8.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 33675456
+    },
+    {
+      "index": 13,
+      "name": "blk.8.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 39288000
+    },
+    {
+      "index": 14,
+      "name": "blk.8.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 39288032
+    },
+    {
+      "index": 15,
+      "name": "blk.8.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 44900576
+    },
+    {
+      "index": 16,
+      "name": "blk.10.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 44900608
+    },
+    {
+      "index": 17,
+      "name": "blk.10.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 50513152
+    },
+    {
+      "index": 18,
+      "name": "blk.10.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 50513184
+    },
+    {
+      "index": 19,
+      "name": "blk.10.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 56125728
+    },
+    {
+      "index": 20,
+      "name": "blk.13.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 56125760
+    },
+    {
+      "index": 21,
+      "name": "blk.13.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 61738304
+    },
+    {
+      "index": 22,
+      "name": "blk.13.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 61738336
+    },
+    {
+      "index": 23,
+      "name": "blk.13.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 67350880
+    },
+    {
+      "index": 24,
+      "name": "blk.15.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 67350912
+    },
+    {
+      "index": 25,
+      "name": "blk.15.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 72963456
+    },
+    {
+      "index": 26,
+      "name": "blk.15.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 72963488
+    },
+    {
+      "index": 27,
+      "name": "blk.15.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 78576032
+    },
+    {
+      "index": 28,
+      "name": "blk.17.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 78576064
+    },
+    {
+      "index": 29,
+      "name": "blk.17.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 84188608
+    },
+    {
+      "index": 30,
+      "name": "blk.17.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 84188640
+    },
+    {
+      "index": 31,
+      "name": "blk.17.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 89801184
+    },
+    {
+      "index": 32,
+      "name": "blk.20.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 89801216
+    },
+    {
+      "index": 33,
+      "name": "blk.20.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 95413760
+    },
+    {
+      "index": 34,
+      "name": "blk.20.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 95413792
+    },
+    {
+      "index": 35,
+      "name": "blk.20.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 101026336
+    },
+    {
+      "index": 36,
+      "name": "blk.22.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 101026368
+    },
+    {
+      "index": 37,
+      "name": "blk.22.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 106638912
+    },
+    {
+      "index": 38,
+      "name": "blk.22.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 106638944
+    },
+    {
+      "index": 39,
+      "name": "blk.22.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 112251488
+    },
+    {
+      "index": 40,
+      "name": "blk.24.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 112251520
+    },
+    {
+      "index": 41,
+      "name": "blk.24.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 117864064
+    },
+    {
+      "index": 42,
+      "name": "blk.24.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 117864096
+    },
+    {
+      "index": 43,
+      "name": "blk.24.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 123476640
+    },
+    {
+      "index": 44,
+      "name": "blk.27.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 123476672
+    },
+    {
+      "index": 45,
+      "name": "blk.27.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 129089216
+    },
+    {
+      "index": 46,
+      "name": "blk.27.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 129089248
+    },
+    {
+      "index": 47,
+      "name": "blk.27.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 134701792
+    },
+    {
+      "index": 48,
+      "name": "blk.29.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 134701824
+    },
+    {
+      "index": 49,
+      "name": "blk.29.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 140314368
+    },
+    {
+      "index": 50,
+      "name": "blk.29.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 140314400
+    },
+    {
+      "index": 51,
+      "name": "blk.29.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 145926944
+    },
+    {
+      "index": 52,
+      "name": "blk.31.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 145926976
+    },
+    {
+      "index": 53,
+      "name": "blk.31.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 151539520
+    },
+    {
+      "index": 54,
+      "name": "blk.31.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 151539552
+    },
+    {
+      "index": 55,
+      "name": "blk.31.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 157152096
+    },
+    {
+      "index": 56,
+      "name": "blk.34.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 157152128
+    },
+    {
+      "index": 57,
+      "name": "blk.34.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 162764672
+    },
+    {
+      "index": 58,
+      "name": "blk.34.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 162764704
+    },
+    {
+      "index": 59,
+      "name": "blk.34.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 168377248
+    },
+    {
+      "index": 60,
+      "name": "blk.36.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 168377280
+    },
+    {
+      "index": 61,
+      "name": "blk.36.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 173989824
+    },
+    {
+      "index": 62,
+      "name": "blk.36.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 173989856
+    },
+    {
+      "index": 63,
+      "name": "blk.36.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 179602400
+    },
+    {
+      "index": 64,
+      "name": "blk.38.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 179602432
+    },
+    {
+      "index": 65,
+      "name": "blk.38.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 185214976
+    },
+    {
+      "index": 66,
+      "name": "blk.38.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 185215008
+    },
+    {
+      "index": 67,
+      "name": "blk.38.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 190827552
+    },
+    {
+      "index": 68,
+      "name": "blk.40.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 190827584
+    },
+    {
+      "index": 69,
+      "name": "blk.40.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 196440128
+    },
+    {
+      "index": 70,
+      "name": "blk.40.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 196440160
+    },
+    {
+      "index": 71,
+      "name": "blk.40.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 202052704
+    },
+    {
+      "index": 72,
+      "name": "blk.43.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 202052736
+    },
+    {
+      "index": 73,
+      "name": "blk.43.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 207665280
+    },
+    {
+      "index": 74,
+      "name": "blk.43.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 207665312
+    },
+    {
+      "index": 75,
+      "name": "blk.43.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 213277856
+    },
+    {
+      "index": 76,
+      "name": "blk.45.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 213277888
+    },
+    {
+      "index": 77,
+      "name": "blk.45.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 218890432
+    },
+    {
+      "index": 78,
+      "name": "blk.45.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 218890464
+    },
+    {
+      "index": 79,
+      "name": "blk.45.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 224503008
+    },
+    {
+      "index": 80,
+      "name": "blk.47.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 224503040
+    },
+    {
+      "index": 81,
+      "name": "blk.47.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 230115584
+    },
+    {
+      "index": 82,
+      "name": "blk.47.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 230115616
+    },
+    {
+      "index": 83,
+      "name": "blk.47.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 235728160
+    },
+    {
+      "index": 84,
+      "name": "blk.49.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 235728192
+    },
+    {
+      "index": 85,
+      "name": "blk.49.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 241340736
+    },
+    {
+      "index": 86,
+      "name": "blk.49.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 241340768
+    },
+    {
+      "index": 87,
+      "name": "blk.49.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 246953312
+    },
+    {
+      "index": 88,
+      "name": "blk.51.ffn_down_shexp.weight",
+      "bytes": 5612544,
+      "offset": 246953344
+    },
+    {
+      "index": 89,
+      "name": "blk.51.ffn_down_shexp.scale",
+      "bytes": 4,
+      "offset": 252565888
+    },
+    {
+      "index": 90,
+      "name": "blk.51.ffn_up_shexp.weight",
+      "bytes": 5612544,
+      "offset": 252565920
+    },
+    {
+      "index": 91,
+      "name": "blk.51.ffn_up_shexp.scale",
+      "bytes": 4,
+      "offset": 258178464
+    },
+    {
+      "index": 92,
+      "name": "output.weight",
+      "bytes": 198180864,
+      "offset": 258178496
+    },
+    {
+      "index": 93,
+      "name": "output.scale",
+      "bytes": 4,
+      "offset": 456359360
+    },
+    {
+      "index": 94,
+      "name": "blk.1.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 456359392
+    },
+    {
+      "index": 95,
+      "name": "blk.1.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 815562208
+    },
+    {
+      "index": 96,
+      "name": "blk.1.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 815562720
+    },
+    {
+      "index": 97,
+      "name": "blk.1.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 1174765536
+    },
+    {
+      "index": 98,
+      "name": "blk.3.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 1174766048
+    },
+    {
+      "index": 99,
+      "name": "blk.3.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 1533968864
+    },
+    {
+      "index": 100,
+      "name": "blk.3.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 1533969376
+    },
+    {
+      "index": 101,
+      "name": "blk.3.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 1893172192
+    },
+    {
+      "index": 102,
+      "name": "blk.6.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 1893172704
+    },
+    {
+      "index": 103,
+      "name": "blk.6.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 2252375520
+    },
+    {
+      "index": 104,
+      "name": "blk.6.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 2252376032
+    },
+    {
+      "index": 105,
+      "name": "blk.6.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 2611578848
+    },
+    {
+      "index": 106,
+      "name": "blk.8.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 2611579360
+    },
+    {
+      "index": 107,
+      "name": "blk.8.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 2970782176
+    },
+    {
+      "index": 108,
+      "name": "blk.8.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 2970782688
+    },
+    {
+      "index": 109,
+      "name": "blk.8.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 3329985504
+    },
+    {
+      "index": 110,
+      "name": "blk.10.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 3329986016
+    },
+    {
+      "index": 111,
+      "name": "blk.10.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 3689188832
+    },
+    {
+      "index": 112,
+      "name": "blk.10.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 3689189344
+    },
+    {
+      "index": 113,
+      "name": "blk.10.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 4048392160
+    },
+    {
+      "index": 114,
+      "name": "blk.13.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 4048392672
+    },
+    {
+      "index": 115,
+      "name": "blk.13.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 4407595488
+    },
+    {
+      "index": 116,
+      "name": "blk.13.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 4407596000
+    },
+    {
+      "index": 117,
+      "name": "blk.13.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 4766798816
+    },
+    {
+      "index": 118,
+      "name": "blk.15.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 4766799328
+    },
+    {
+      "index": 119,
+      "name": "blk.15.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 5126002144
+    },
+    {
+      "index": 120,
+      "name": "blk.15.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 5126002656
+    },
+    {
+      "index": 121,
+      "name": "blk.15.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 5485205472
+    },
+    {
+      "index": 122,
+      "name": "blk.17.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 5485205984
+    },
+    {
+      "index": 123,
+      "name": "blk.17.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 5844408800
+    },
+    {
+      "index": 124,
+      "name": "blk.17.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 5844409312
+    },
+    {
+      "index": 125,
+      "name": "blk.17.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 6203612128
+    },
+    {
+      "index": 126,
+      "name": "blk.20.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 6203612640
+    },
+    {
+      "index": 127,
+      "name": "blk.20.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 6562815456
+    },
+    {
+      "index": 128,
+      "name": "blk.20.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 6562815968
+    },
+    {
+      "index": 129,
+      "name": "blk.20.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 6922018784
+    },
+    {
+      "index": 130,
+      "name": "blk.22.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 6922019296
+    },
+    {
+      "index": 131,
+      "name": "blk.22.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 7281222112
+    },
+    {
+      "index": 132,
+      "name": "blk.22.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 7281222624
+    },
+    {
+      "index": 133,
+      "name": "blk.22.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 7640425440
+    },
+    {
+      "index": 134,
+      "name": "blk.24.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 7640425952
+    },
+    {
+      "index": 135,
+      "name": "blk.24.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 7999628768
+    },
+    {
+      "index": 136,
+      "name": "blk.24.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 7999629280
+    },
+    {
+      "index": 137,
+      "name": "blk.24.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 8358832096
+    },
+    {
+      "index": 138,
+      "name": "blk.27.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 8358832608
+    },
+    {
+      "index": 139,
+      "name": "blk.27.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 8718035424
+    },
+    {
+      "index": 140,
+      "name": "blk.27.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 8718035936
+    },
+    {
+      "index": 141,
+      "name": "blk.27.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 9077238752
+    },
+    {
+      "index": 142,
+      "name": "blk.29.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 9077239264
+    },
+    {
+      "index": 143,
+      "name": "blk.29.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 9436442080
+    },
+    {
+      "index": 144,
+      "name": "blk.29.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 9436442592
+    },
+    {
+      "index": 145,
+      "name": "blk.29.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 9795645408
+    },
+    {
+      "index": 146,
+      "name": "blk.31.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 9795645920
+    },
+    {
+      "index": 147,
+      "name": "blk.31.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 10154848736
+    },
+    {
+      "index": 148,
+      "name": "blk.31.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 10154849248
+    },
+    {
+      "index": 149,
+      "name": "blk.31.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 10514052064
+    },
+    {
+      "index": 150,
+      "name": "blk.34.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 10514052576
+    },
+    {
+      "index": 151,
+      "name": "blk.34.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 10873255392
+    },
+    {
+      "index": 152,
+      "name": "blk.34.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 10873255904
+    },
+    {
+      "index": 153,
+      "name": "blk.34.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 11232458720
+    },
+    {
+      "index": 154,
+      "name": "blk.36.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 11232459232
+    },
+    {
+      "index": 155,
+      "name": "blk.36.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 11591662048
+    },
+    {
+      "index": 156,
+      "name": "blk.36.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 11591662560
+    },
+    {
+      "index": 157,
+      "name": "blk.36.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 11950865376
+    },
+    {
+      "index": 158,
+      "name": "blk.38.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 11950865888
+    },
+    {
+      "index": 159,
+      "name": "blk.38.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 12310068704
+    },
+    {
+      "index": 160,
+      "name": "blk.38.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 12310069216
+    },
+    {
+      "index": 161,
+      "name": "blk.38.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 12669272032
+    },
+    {
+      "index": 162,
+      "name": "blk.40.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 12669272544
+    },
+    {
+      "index": 163,
+      "name": "blk.40.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 13028475360
+    },
+    {
+      "index": 164,
+      "name": "blk.40.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 13028475872
+    },
+    {
+      "index": 165,
+      "name": "blk.40.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 13387678688
+    },
+    {
+      "index": 166,
+      "name": "blk.43.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 13387679200
+    },
+    {
+      "index": 167,
+      "name": "blk.43.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 13746882016
+    },
+    {
+      "index": 168,
+      "name": "blk.43.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 13746882528
+    },
+    {
+      "index": 169,
+      "name": "blk.43.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 14106085344
+    },
+    {
+      "index": 170,
+      "name": "blk.45.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 14106085856
+    },
+    {
+      "index": 171,
+      "name": "blk.45.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 14465288672
+    },
+    {
+      "index": 172,
+      "name": "blk.45.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 14465289184
+    },
+    {
+      "index": 173,
+      "name": "blk.45.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 14824492000
+    },
+    {
+      "index": 174,
+      "name": "blk.47.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 14824492512
+    },
+    {
+      "index": 175,
+      "name": "blk.47.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 15183695328
+    },
+    {
+      "index": 176,
+      "name": "blk.47.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 15183695840
+    },
+    {
+      "index": 177,
+      "name": "blk.47.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 15542898656
+    },
+    {
+      "index": 178,
+      "name": "blk.49.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 15542899168
+    },
+    {
+      "index": 179,
+      "name": "blk.49.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 15902101984
+    },
+    {
+      "index": 180,
+      "name": "blk.49.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 15902102496
+    },
+    {
+      "index": 181,
+      "name": "blk.49.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 16261305312
+    },
+    {
+      "index": 182,
+      "name": "blk.51.ffn_down_exps.weight",
+      "bytes": 359202816,
+      "offset": 16261305824
+    },
+    {
+      "index": 183,
+      "name": "blk.51.ffn_down_exps.scale",
+      "bytes": 512,
+      "offset": 16620508640
+    },
+    {
+      "index": 184,
+      "name": "blk.51.ffn_up_exps.weight",
+      "bytes": 359202816,
+      "offset": 16620509152
+    },
+    {
+      "index": 185,
+      "name": "blk.51.ffn_up_exps.scale",
+      "bytes": 512,
+      "offset": 16979711968
+    },
+    {
+      "index": 186,
+      "name": "token_embd.weight",
+      "bytes": 704643072,
+      "offset": 16979712480
+    },
+    {
+      "index": 187,
+      "name": "blk.0.ssm_a",
+      "bytes": 256,
+      "offset": 17684355552
+    },
+    {
+      "index": 188,
+      "name": "blk.0.ssm_d",
+      "bytes": 256,
+      "offset": 17684355808
+    },
+    {
+      "index": 189,
+      "name": "blk.0.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 17684356064
+    },
+    {
+      "index": 190,
+      "name": "blk.0.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 17684380640
+    },
+    {
+      "index": 191,
+      "name": "blk.0.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 17684478944
+    },
+    {
+      "index": 192,
+      "name": "blk.0.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 17684479200
+    },
+    {
+      "index": 193,
+      "name": "blk.0.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 17739873504
+    },
+    {
+      "index": 194,
+      "name": "blk.0.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 17739889888
+    },
+    {
+      "index": 195,
+      "name": "blk.0.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 17761909984
+    },
+    {
+      "index": 196,
+      "name": "blk.1.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 17761920736
+    },
+    {
+      "index": 197,
+      "name": "blk.1.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 17761921248
+    },
+    {
+      "index": 198,
+      "name": "blk.1.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 17763297504
+    },
+    {
+      "index": 199,
+      "name": "blk.2.ssm_a",
+      "bytes": 256,
+      "offset": 17763308256
+    },
+    {
+      "index": 200,
+      "name": "blk.2.ssm_d",
+      "bytes": 256,
+      "offset": 17763308512
+    },
+    {
+      "index": 201,
+      "name": "blk.2.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 17763308768
+    },
+    {
+      "index": 202,
+      "name": "blk.2.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 17763333344
+    },
+    {
+      "index": 203,
+      "name": "blk.2.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 17763431648
+    },
+    {
+      "index": 204,
+      "name": "blk.2.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 17763431904
+    },
+    {
+      "index": 205,
+      "name": "blk.2.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 17818826208
+    },
+    {
+      "index": 206,
+      "name": "blk.2.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 17818842592
+    },
+    {
+      "index": 207,
+      "name": "blk.2.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 17840862688
+    },
+    {
+      "index": 208,
+      "name": "blk.3.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 17840873440
+    },
+    {
+      "index": 209,
+      "name": "blk.3.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 17840873952
+    },
+    {
+      "index": 210,
+      "name": "blk.3.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 17842250208
+    },
+    {
+      "index": 211,
+      "name": "blk.4.ssm_a",
+      "bytes": 256,
+      "offset": 17842260960
+    },
+    {
+      "index": 212,
+      "name": "blk.4.ssm_d",
+      "bytes": 256,
+      "offset": 17842261216
+    },
+    {
+      "index": 213,
+      "name": "blk.4.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 17842261472
+    },
+    {
+      "index": 214,
+      "name": "blk.4.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 17842286048
+    },
+    {
+      "index": 215,
+      "name": "blk.4.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 17842384352
+    },
+    {
+      "index": 216,
+      "name": "blk.4.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 17842384608
+    },
+    {
+      "index": 217,
+      "name": "blk.4.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 17897778912
+    },
+    {
+      "index": 218,
+      "name": "blk.4.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 17897795296
+    },
+    {
+      "index": 219,
+      "name": "blk.4.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 17919815392
+    },
+    {
+      "index": 220,
+      "name": "blk.5.attn_k.weight",
+      "bytes": 1376256,
+      "offset": 17919826144
+    },
+    {
+      "index": 221,
+      "name": "blk.5.attn_output.weight",
+      "bytes": 22020096,
+      "offset": 17921202400
+    },
+    {
+      "index": 222,
+      "name": "blk.5.attn_q.weight",
+      "bytes": 22020096,
+      "offset": 17943222496
+    },
+    {
+      "index": 223,
+      "name": "blk.5.attn_v.weight",
+      "bytes": 1376256,
+      "offset": 17965242592
+    },
+    {
+      "index": 224,
+      "name": "blk.5.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 17966618848
+    },
+    {
+      "index": 225,
+      "name": "blk.6.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 17966629600
+    },
+    {
+      "index": 226,
+      "name": "blk.6.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 17966630112
+    },
+    {
+      "index": 227,
+      "name": "blk.6.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 17968006368
+    },
+    {
+      "index": 228,
+      "name": "blk.7.ssm_a",
+      "bytes": 256,
+      "offset": 17968017120
+    },
+    {
+      "index": 229,
+      "name": "blk.7.ssm_d",
+      "bytes": 256,
+      "offset": 17968017376
+    },
+    {
+      "index": 230,
+      "name": "blk.7.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 17968017632
+    },
+    {
+      "index": 231,
+      "name": "blk.7.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 17968042208
+    },
+    {
+      "index": 232,
+      "name": "blk.7.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 17968140512
+    },
+    {
+      "index": 233,
+      "name": "blk.7.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 17968140768
+    },
+    {
+      "index": 234,
+      "name": "blk.7.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 18023535072
+    },
+    {
+      "index": 235,
+      "name": "blk.7.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 18023551456
+    },
+    {
+      "index": 236,
+      "name": "blk.7.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18045571552
+    },
+    {
+      "index": 237,
+      "name": "blk.8.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 18045582304
+    },
+    {
+      "index": 238,
+      "name": "blk.8.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 18045582816
+    },
+    {
+      "index": 239,
+      "name": "blk.8.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18046959072
+    },
+    {
+      "index": 240,
+      "name": "blk.9.ssm_a",
+      "bytes": 256,
+      "offset": 18046969824
+    },
+    {
+      "index": 241,
+      "name": "blk.9.ssm_d",
+      "bytes": 256,
+      "offset": 18046970080
+    },
+    {
+      "index": 242,
+      "name": "blk.9.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 18046970336
+    },
+    {
+      "index": 243,
+      "name": "blk.9.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 18046994912
+    },
+    {
+      "index": 244,
+      "name": "blk.9.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 18047093216
+    },
+    {
+      "index": 245,
+      "name": "blk.9.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 18047093472
+    },
+    {
+      "index": 246,
+      "name": "blk.9.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 18102487776
+    },
+    {
+      "index": 247,
+      "name": "blk.9.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 18102504160
+    },
+    {
+      "index": 248,
+      "name": "blk.9.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18124524256
+    },
+    {
+      "index": 249,
+      "name": "blk.10.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 18124535008
+    },
+    {
+      "index": 250,
+      "name": "blk.10.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 18124535520
+    },
+    {
+      "index": 251,
+      "name": "blk.10.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18125911776
+    },
+    {
+      "index": 252,
+      "name": "blk.11.ssm_a",
+      "bytes": 256,
+      "offset": 18125922528
+    },
+    {
+      "index": 253,
+      "name": "blk.11.ssm_d",
+      "bytes": 256,
+      "offset": 18125922784
+    },
+    {
+      "index": 254,
+      "name": "blk.11.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 18125923040
+    },
+    {
+      "index": 255,
+      "name": "blk.11.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 18125947616
+    },
+    {
+      "index": 256,
+      "name": "blk.11.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 18126045920
+    },
+    {
+      "index": 257,
+      "name": "blk.11.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 18126046176
+    },
+    {
+      "index": 258,
+      "name": "blk.11.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 18181440480
+    },
+    {
+      "index": 259,
+      "name": "blk.11.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 18181456864
+    },
+    {
+      "index": 260,
+      "name": "blk.11.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18203476960
+    },
+    {
+      "index": 261,
+      "name": "blk.12.attn_k.weight",
+      "bytes": 1376256,
+      "offset": 18203487712
+    },
+    {
+      "index": 262,
+      "name": "blk.12.attn_output.weight",
+      "bytes": 22020096,
+      "offset": 18204863968
+    },
+    {
+      "index": 263,
+      "name": "blk.12.attn_q.weight",
+      "bytes": 22020096,
+      "offset": 18226884064
+    },
+    {
+      "index": 264,
+      "name": "blk.12.attn_v.weight",
+      "bytes": 1376256,
+      "offset": 18248904160
+    },
+    {
+      "index": 265,
+      "name": "blk.12.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18250280416
+    },
+    {
+      "index": 266,
+      "name": "blk.13.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 18250291168
+    },
+    {
+      "index": 267,
+      "name": "blk.13.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 18250291680
+    },
+    {
+      "index": 268,
+      "name": "blk.13.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18251667936
+    },
+    {
+      "index": 269,
+      "name": "blk.14.ssm_a",
+      "bytes": 256,
+      "offset": 18251678688
+    },
+    {
+      "index": 270,
+      "name": "blk.14.ssm_d",
+      "bytes": 256,
+      "offset": 18251678944
+    },
+    {
+      "index": 271,
+      "name": "blk.14.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 18251679200
+    },
+    {
+      "index": 272,
+      "name": "blk.14.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 18251703776
+    },
+    {
+      "index": 273,
+      "name": "blk.14.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 18251802080
+    },
+    {
+      "index": 274,
+      "name": "blk.14.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 18251802336
+    },
+    {
+      "index": 275,
+      "name": "blk.14.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 18307196640
+    },
+    {
+      "index": 276,
+      "name": "blk.14.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 18307213024
+    },
+    {
+      "index": 277,
+      "name": "blk.14.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18329233120
+    },
+    {
+      "index": 278,
+      "name": "blk.15.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 18329243872
+    },
+    {
+      "index": 279,
+      "name": "blk.15.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 18329244384
+    },
+    {
+      "index": 280,
+      "name": "blk.15.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18330620640
+    },
+    {
+      "index": 281,
+      "name": "blk.16.ssm_a",
+      "bytes": 256,
+      "offset": 18330631392
+    },
+    {
+      "index": 282,
+      "name": "blk.16.ssm_d",
+      "bytes": 256,
+      "offset": 18330631648
+    },
+    {
+      "index": 283,
+      "name": "blk.16.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 18330631904
+    },
+    {
+      "index": 284,
+      "name": "blk.16.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 18330656480
+    },
+    {
+      "index": 285,
+      "name": "blk.16.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 18330754784
+    },
+    {
+      "index": 286,
+      "name": "blk.16.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 18330755040
+    },
+    {
+      "index": 287,
+      "name": "blk.16.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 18386149344
+    },
+    {
+      "index": 288,
+      "name": "blk.16.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 18386165728
+    },
+    {
+      "index": 289,
+      "name": "blk.16.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18408185824
+    },
+    {
+      "index": 290,
+      "name": "blk.17.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 18408196576
+    },
+    {
+      "index": 291,
+      "name": "blk.17.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 18408197088
+    },
+    {
+      "index": 292,
+      "name": "blk.17.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18409573344
+    },
+    {
+      "index": 293,
+      "name": "blk.18.ssm_a",
+      "bytes": 256,
+      "offset": 18409584096
+    },
+    {
+      "index": 294,
+      "name": "blk.18.ssm_d",
+      "bytes": 256,
+      "offset": 18409584352
+    },
+    {
+      "index": 295,
+      "name": "blk.18.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 18409584608
+    },
+    {
+      "index": 296,
+      "name": "blk.18.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 18409609184
+    },
+    {
+      "index": 297,
+      "name": "blk.18.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 18409707488
+    },
+    {
+      "index": 298,
+      "name": "blk.18.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 18409707744
+    },
+    {
+      "index": 299,
+      "name": "blk.18.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 18465102048
+    },
+    {
+      "index": 300,
+      "name": "blk.18.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 18465118432
+    },
+    {
+      "index": 301,
+      "name": "blk.18.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18487138528
+    },
+    {
+      "index": 302,
+      "name": "blk.19.attn_k.weight",
+      "bytes": 1376256,
+      "offset": 18487149280
+    },
+    {
+      "index": 303,
+      "name": "blk.19.attn_output.weight",
+      "bytes": 22020096,
+      "offset": 18488525536
+    },
+    {
+      "index": 304,
+      "name": "blk.19.attn_q.weight",
+      "bytes": 22020096,
+      "offset": 18510545632
+    },
+    {
+      "index": 305,
+      "name": "blk.19.attn_v.weight",
+      "bytes": 1376256,
+      "offset": 18532565728
+    },
+    {
+      "index": 306,
+      "name": "blk.19.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18533941984
+    },
+    {
+      "index": 307,
+      "name": "blk.20.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 18533952736
+    },
+    {
+      "index": 308,
+      "name": "blk.20.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 18533953248
+    },
+    {
+      "index": 309,
+      "name": "blk.20.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18535329504
+    },
+    {
+      "index": 310,
+      "name": "blk.21.ssm_a",
+      "bytes": 256,
+      "offset": 18535340256
+    },
+    {
+      "index": 311,
+      "name": "blk.21.ssm_d",
+      "bytes": 256,
+      "offset": 18535340512
+    },
+    {
+      "index": 312,
+      "name": "blk.21.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 18535340768
+    },
+    {
+      "index": 313,
+      "name": "blk.21.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 18535365344
+    },
+    {
+      "index": 314,
+      "name": "blk.21.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 18535463648
+    },
+    {
+      "index": 315,
+      "name": "blk.21.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 18535463904
+    },
+    {
+      "index": 316,
+      "name": "blk.21.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 18590858208
+    },
+    {
+      "index": 317,
+      "name": "blk.21.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 18590874592
+    },
+    {
+      "index": 318,
+      "name": "blk.21.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18612894688
+    },
+    {
+      "index": 319,
+      "name": "blk.22.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 18612905440
+    },
+    {
+      "index": 320,
+      "name": "blk.22.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 18612905952
+    },
+    {
+      "index": 321,
+      "name": "blk.22.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18614282208
+    },
+    {
+      "index": 322,
+      "name": "blk.23.ssm_a",
+      "bytes": 256,
+      "offset": 18614292960
+    },
+    {
+      "index": 323,
+      "name": "blk.23.ssm_d",
+      "bytes": 256,
+      "offset": 18614293216
+    },
+    {
+      "index": 324,
+      "name": "blk.23.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 18614293472
+    },
+    {
+      "index": 325,
+      "name": "blk.23.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 18614318048
+    },
+    {
+      "index": 326,
+      "name": "blk.23.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 18614416352
+    },
+    {
+      "index": 327,
+      "name": "blk.23.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 18614416608
+    },
+    {
+      "index": 328,
+      "name": "blk.23.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 18669810912
+    },
+    {
+      "index": 329,
+      "name": "blk.23.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 18669827296
+    },
+    {
+      "index": 330,
+      "name": "blk.23.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18691847392
+    },
+    {
+      "index": 331,
+      "name": "blk.24.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 18691858144
+    },
+    {
+      "index": 332,
+      "name": "blk.24.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 18691858656
+    },
+    {
+      "index": 333,
+      "name": "blk.24.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18693234912
+    },
+    {
+      "index": 334,
+      "name": "blk.25.ssm_a",
+      "bytes": 256,
+      "offset": 18693245664
+    },
+    {
+      "index": 335,
+      "name": "blk.25.ssm_d",
+      "bytes": 256,
+      "offset": 18693245920
+    },
+    {
+      "index": 336,
+      "name": "blk.25.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 18693246176
+    },
+    {
+      "index": 337,
+      "name": "blk.25.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 18693270752
+    },
+    {
+      "index": 338,
+      "name": "blk.25.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 18693369056
+    },
+    {
+      "index": 339,
+      "name": "blk.25.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 18693369312
+    },
+    {
+      "index": 340,
+      "name": "blk.25.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 18748763616
+    },
+    {
+      "index": 341,
+      "name": "blk.25.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 18748780000
+    },
+    {
+      "index": 342,
+      "name": "blk.25.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18770800096
+    },
+    {
+      "index": 343,
+      "name": "blk.26.attn_k.weight",
+      "bytes": 1376256,
+      "offset": 18770810848
+    },
+    {
+      "index": 344,
+      "name": "blk.26.attn_output.weight",
+      "bytes": 22020096,
+      "offset": 18772187104
+    },
+    {
+      "index": 345,
+      "name": "blk.26.attn_q.weight",
+      "bytes": 22020096,
+      "offset": 18794207200
+    },
+    {
+      "index": 346,
+      "name": "blk.26.attn_v.weight",
+      "bytes": 1376256,
+      "offset": 18816227296
+    },
+    {
+      "index": 347,
+      "name": "blk.26.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18817603552
+    },
+    {
+      "index": 348,
+      "name": "blk.27.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 18817614304
+    },
+    {
+      "index": 349,
+      "name": "blk.27.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 18817614816
+    },
+    {
+      "index": 350,
+      "name": "blk.27.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18818991072
+    },
+    {
+      "index": 351,
+      "name": "blk.28.ssm_a",
+      "bytes": 256,
+      "offset": 18819001824
+    },
+    {
+      "index": 352,
+      "name": "blk.28.ssm_d",
+      "bytes": 256,
+      "offset": 18819002080
+    },
+    {
+      "index": 353,
+      "name": "blk.28.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 18819002336
+    },
+    {
+      "index": 354,
+      "name": "blk.28.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 18819026912
+    },
+    {
+      "index": 355,
+      "name": "blk.28.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 18819125216
+    },
+    {
+      "index": 356,
+      "name": "blk.28.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 18819125472
+    },
+    {
+      "index": 357,
+      "name": "blk.28.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 18874519776
+    },
+    {
+      "index": 358,
+      "name": "blk.28.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 18874536160
+    },
+    {
+      "index": 359,
+      "name": "blk.28.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18896556256
+    },
+    {
+      "index": 360,
+      "name": "blk.29.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 18896567008
+    },
+    {
+      "index": 361,
+      "name": "blk.29.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 18896567520
+    },
+    {
+      "index": 362,
+      "name": "blk.29.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18897943776
+    },
+    {
+      "index": 363,
+      "name": "blk.30.ssm_a",
+      "bytes": 256,
+      "offset": 18897954528
+    },
+    {
+      "index": 364,
+      "name": "blk.30.ssm_d",
+      "bytes": 256,
+      "offset": 18897954784
+    },
+    {
+      "index": 365,
+      "name": "blk.30.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 18897955040
+    },
+    {
+      "index": 366,
+      "name": "blk.30.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 18897979616
+    },
+    {
+      "index": 367,
+      "name": "blk.30.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 18898077920
+    },
+    {
+      "index": 368,
+      "name": "blk.30.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 18898078176
+    },
+    {
+      "index": 369,
+      "name": "blk.30.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 18953472480
+    },
+    {
+      "index": 370,
+      "name": "blk.30.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 18953488864
+    },
+    {
+      "index": 371,
+      "name": "blk.30.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18975508960
+    },
+    {
+      "index": 372,
+      "name": "blk.31.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 18975519712
+    },
+    {
+      "index": 373,
+      "name": "blk.31.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 18975520224
+    },
+    {
+      "index": 374,
+      "name": "blk.31.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 18976896480
+    },
+    {
+      "index": 375,
+      "name": "blk.32.ssm_a",
+      "bytes": 256,
+      "offset": 18976907232
+    },
+    {
+      "index": 376,
+      "name": "blk.32.ssm_d",
+      "bytes": 256,
+      "offset": 18976907488
+    },
+    {
+      "index": 377,
+      "name": "blk.32.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 18976907744
+    },
+    {
+      "index": 378,
+      "name": "blk.32.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 18976932320
+    },
+    {
+      "index": 379,
+      "name": "blk.32.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 18977030624
+    },
+    {
+      "index": 380,
+      "name": "blk.32.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 18977030880
+    },
+    {
+      "index": 381,
+      "name": "blk.32.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 19032425184
+    },
+    {
+      "index": 382,
+      "name": "blk.32.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 19032441568
+    },
+    {
+      "index": 383,
+      "name": "blk.32.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19054461664
+    },
+    {
+      "index": 384,
+      "name": "blk.33.attn_k.weight",
+      "bytes": 1376256,
+      "offset": 19054472416
+    },
+    {
+      "index": 385,
+      "name": "blk.33.attn_output.weight",
+      "bytes": 22020096,
+      "offset": 19055848672
+    },
+    {
+      "index": 386,
+      "name": "blk.33.attn_q.weight",
+      "bytes": 22020096,
+      "offset": 19077868768
+    },
+    {
+      "index": 387,
+      "name": "blk.33.attn_v.weight",
+      "bytes": 1376256,
+      "offset": 19099888864
+    },
+    {
+      "index": 388,
+      "name": "blk.33.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19101265120
+    },
+    {
+      "index": 389,
+      "name": "blk.34.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 19101275872
+    },
+    {
+      "index": 390,
+      "name": "blk.34.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 19101276384
+    },
+    {
+      "index": 391,
+      "name": "blk.34.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19102652640
+    },
+    {
+      "index": 392,
+      "name": "blk.35.ssm_a",
+      "bytes": 256,
+      "offset": 19102663392
+    },
+    {
+      "index": 393,
+      "name": "blk.35.ssm_d",
+      "bytes": 256,
+      "offset": 19102663648
+    },
+    {
+      "index": 394,
+      "name": "blk.35.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 19102663904
+    },
+    {
+      "index": 395,
+      "name": "blk.35.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 19102688480
+    },
+    {
+      "index": 396,
+      "name": "blk.35.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 19102786784
+    },
+    {
+      "index": 397,
+      "name": "blk.35.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 19102787040
+    },
+    {
+      "index": 398,
+      "name": "blk.35.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 19158181344
+    },
+    {
+      "index": 399,
+      "name": "blk.35.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 19158197728
+    },
+    {
+      "index": 400,
+      "name": "blk.35.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19180217824
+    },
+    {
+      "index": 401,
+      "name": "blk.36.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 19180228576
+    },
+    {
+      "index": 402,
+      "name": "blk.36.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 19180229088
+    },
+    {
+      "index": 403,
+      "name": "blk.36.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19181605344
+    },
+    {
+      "index": 404,
+      "name": "blk.37.ssm_a",
+      "bytes": 256,
+      "offset": 19181616096
+    },
+    {
+      "index": 405,
+      "name": "blk.37.ssm_d",
+      "bytes": 256,
+      "offset": 19181616352
+    },
+    {
+      "index": 406,
+      "name": "blk.37.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 19181616608
+    },
+    {
+      "index": 407,
+      "name": "blk.37.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 19181641184
+    },
+    {
+      "index": 408,
+      "name": "blk.37.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 19181739488
+    },
+    {
+      "index": 409,
+      "name": "blk.37.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 19181739744
+    },
+    {
+      "index": 410,
+      "name": "blk.37.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 19237134048
+    },
+    {
+      "index": 411,
+      "name": "blk.37.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 19237150432
+    },
+    {
+      "index": 412,
+      "name": "blk.37.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19259170528
+    },
+    {
+      "index": 413,
+      "name": "blk.38.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 19259181280
+    },
+    {
+      "index": 414,
+      "name": "blk.38.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 19259181792
+    },
+    {
+      "index": 415,
+      "name": "blk.38.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19260558048
+    },
+    {
+      "index": 416,
+      "name": "blk.39.ssm_a",
+      "bytes": 256,
+      "offset": 19260568800
+    },
+    {
+      "index": 417,
+      "name": "blk.39.ssm_d",
+      "bytes": 256,
+      "offset": 19260569056
+    },
+    {
+      "index": 418,
+      "name": "blk.39.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 19260569312
+    },
+    {
+      "index": 419,
+      "name": "blk.39.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 19260593888
+    },
+    {
+      "index": 420,
+      "name": "blk.39.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 19260692192
+    },
+    {
+      "index": 421,
+      "name": "blk.39.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 19260692448
+    },
+    {
+      "index": 422,
+      "name": "blk.39.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 19316086752
+    },
+    {
+      "index": 423,
+      "name": "blk.39.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 19316103136
+    },
+    {
+      "index": 424,
+      "name": "blk.39.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19338123232
+    },
+    {
+      "index": 425,
+      "name": "blk.40.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 19338133984
+    },
+    {
+      "index": 426,
+      "name": "blk.40.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 19338134496
+    },
+    {
+      "index": 427,
+      "name": "blk.40.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19339510752
+    },
+    {
+      "index": 428,
+      "name": "blk.41.ssm_a",
+      "bytes": 256,
+      "offset": 19339521504
+    },
+    {
+      "index": 429,
+      "name": "blk.41.ssm_d",
+      "bytes": 256,
+      "offset": 19339521760
+    },
+    {
+      "index": 430,
+      "name": "blk.41.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 19339522016
+    },
+    {
+      "index": 431,
+      "name": "blk.41.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 19339546592
+    },
+    {
+      "index": 432,
+      "name": "blk.41.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 19339644896
+    },
+    {
+      "index": 433,
+      "name": "blk.41.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 19339645152
+    },
+    {
+      "index": 434,
+      "name": "blk.41.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 19395039456
+    },
+    {
+      "index": 435,
+      "name": "blk.41.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 19395055840
+    },
+    {
+      "index": 436,
+      "name": "blk.41.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19417075936
+    },
+    {
+      "index": 437,
+      "name": "blk.42.attn_k.weight",
+      "bytes": 1376256,
+      "offset": 19417086688
+    },
+    {
+      "index": 438,
+      "name": "blk.42.attn_output.weight",
+      "bytes": 22020096,
+      "offset": 19418462944
+    },
+    {
+      "index": 439,
+      "name": "blk.42.attn_q.weight",
+      "bytes": 22020096,
+      "offset": 19440483040
+    },
+    {
+      "index": 440,
+      "name": "blk.42.attn_v.weight",
+      "bytes": 1376256,
+      "offset": 19462503136
+    },
+    {
+      "index": 441,
+      "name": "blk.42.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19463879392
+    },
+    {
+      "index": 442,
+      "name": "blk.43.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 19463890144
+    },
+    {
+      "index": 443,
+      "name": "blk.43.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 19463890656
+    },
+    {
+      "index": 444,
+      "name": "blk.43.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19465266912
+    },
+    {
+      "index": 445,
+      "name": "blk.44.ssm_a",
+      "bytes": 256,
+      "offset": 19465277664
+    },
+    {
+      "index": 446,
+      "name": "blk.44.ssm_d",
+      "bytes": 256,
+      "offset": 19465277920
+    },
+    {
+      "index": 447,
+      "name": "blk.44.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 19465278176
+    },
+    {
+      "index": 448,
+      "name": "blk.44.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 19465302752
+    },
+    {
+      "index": 449,
+      "name": "blk.44.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 19465401056
+    },
+    {
+      "index": 450,
+      "name": "blk.44.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 19465401312
+    },
+    {
+      "index": 451,
+      "name": "blk.44.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 19520795616
+    },
+    {
+      "index": 452,
+      "name": "blk.44.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 19520812000
+    },
+    {
+      "index": 453,
+      "name": "blk.44.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19542832096
+    },
+    {
+      "index": 454,
+      "name": "blk.45.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 19542842848
+    },
+    {
+      "index": 455,
+      "name": "blk.45.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 19542843360
+    },
+    {
+      "index": 456,
+      "name": "blk.45.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19544219616
+    },
+    {
+      "index": 457,
+      "name": "blk.46.ssm_a",
+      "bytes": 256,
+      "offset": 19544230368
+    },
+    {
+      "index": 458,
+      "name": "blk.46.ssm_d",
+      "bytes": 256,
+      "offset": 19544230624
+    },
+    {
+      "index": 459,
+      "name": "blk.46.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 19544230880
+    },
+    {
+      "index": 460,
+      "name": "blk.46.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 19544255456
+    },
+    {
+      "index": 461,
+      "name": "blk.46.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 19544353760
+    },
+    {
+      "index": 462,
+      "name": "blk.46.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 19544354016
+    },
+    {
+      "index": 463,
+      "name": "blk.46.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 19599748320
+    },
+    {
+      "index": 464,
+      "name": "blk.46.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 19599764704
+    },
+    {
+      "index": 465,
+      "name": "blk.46.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19621784800
+    },
+    {
+      "index": 466,
+      "name": "blk.47.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 19621795552
+    },
+    {
+      "index": 467,
+      "name": "blk.47.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 19621796064
+    },
+    {
+      "index": 468,
+      "name": "blk.47.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19623172320
+    },
+    {
+      "index": 469,
+      "name": "blk.48.ssm_a",
+      "bytes": 256,
+      "offset": 19623183072
+    },
+    {
+      "index": 470,
+      "name": "blk.48.ssm_d",
+      "bytes": 256,
+      "offset": 19623183328
+    },
+    {
+      "index": 471,
+      "name": "blk.48.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 19623183584
+    },
+    {
+      "index": 472,
+      "name": "blk.48.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 19623208160
+    },
+    {
+      "index": 473,
+      "name": "blk.48.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 19623306464
+    },
+    {
+      "index": 474,
+      "name": "blk.48.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 19623306720
+    },
+    {
+      "index": 475,
+      "name": "blk.48.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 19678701024
+    },
+    {
+      "index": 476,
+      "name": "blk.48.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 19678717408
+    },
+    {
+      "index": 477,
+      "name": "blk.48.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19700737504
+    },
+    {
+      "index": 478,
+      "name": "blk.49.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 19700748256
+    },
+    {
+      "index": 479,
+      "name": "blk.49.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 19700748768
+    },
+    {
+      "index": 480,
+      "name": "blk.49.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19702125024
+    },
+    {
+      "index": 481,
+      "name": "blk.50.ssm_a",
+      "bytes": 256,
+      "offset": 19702135776
+    },
+    {
+      "index": 482,
+      "name": "blk.50.ssm_d",
+      "bytes": 256,
+      "offset": 19702136032
+    },
+    {
+      "index": 483,
+      "name": "blk.50.ssm_conv1d.bias",
+      "bytes": 24576,
+      "offset": 19702136288
+    },
+    {
+      "index": 484,
+      "name": "blk.50.ssm_conv1d.weight",
+      "bytes": 98304,
+      "offset": 19702160864
+    },
+    {
+      "index": 485,
+      "name": "blk.50.ssm_dt.bias",
+      "bytes": 256,
+      "offset": 19702259168
+    },
+    {
+      "index": 486,
+      "name": "blk.50.ssm_in.weight",
+      "bytes": 55394304,
+      "offset": 19702259424
+    },
+    {
+      "index": 487,
+      "name": "blk.50.ssm_norm.weight",
+      "bytes": 16384,
+      "offset": 19757653728
+    },
+    {
+      "index": 488,
+      "name": "blk.50.ssm_out.weight",
+      "bytes": 22020096,
+      "offset": 19757670112
+    },
+    {
+      "index": 489,
+      "name": "blk.50.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19779690208
+    },
+    {
+      "index": 490,
+      "name": "blk.51.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 19779700960
+    },
+    {
+      "index": 491,
+      "name": "blk.51.ffn_gate_inp.weight",
+      "bytes": 1376256,
+      "offset": 19779701472
+    },
+    {
+      "index": 492,
+      "name": "blk.51.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19781077728
+    },
+    {
+      "index": 493,
+      "name": "output_norm.weight",
+      "bytes": 10752,
+      "offset": 19781088480
+    },
+    {
+      "index": 494,
+      "name": "blk.52.nextn.eh_proj.weight",
+      "bytes": 28901376,
+      "offset": 19781099232
+    },
+    {
+      "index": 495,
+      "name": "blk.52.nextn.enorm.weight",
+      "bytes": 10752,
+      "offset": 19810000608
+    },
+    {
+      "index": 496,
+      "name": "blk.52.nextn.hnorm.weight",
+      "bytes": 10752,
+      "offset": 19810011360
+    },
+    {
+      "index": 497,
+      "name": "blk.52.attn_k.weight",
+      "bytes": 1376256,
+      "offset": 19810022112
+    },
+    {
+      "index": 498,
+      "name": "blk.52.attn_output.weight",
+      "bytes": 22020096,
+      "offset": 19811398368
+    },
+    {
+      "index": 499,
+      "name": "blk.52.attn_q.weight",
+      "bytes": 22020096,
+      "offset": 19833418464
+    },
+    {
+      "index": 500,
+      "name": "blk.52.attn_v.weight",
+      "bytes": 1376256,
+      "offset": 19855438560
+    },
+    {
+      "index": 501,
+      "name": "blk.52.attn_norm.weight",
+      "bytes": 10752,
+      "offset": 19856814816
+    },
+    {
+      "index": 502,
+      "name": "blk.52.nextn.shared_head_norm.weight",
+      "bytes": 10752,
+      "offset": 19856825568
+    },
+    {
+      "index": 503,
+      "name": "blk.52.ffn_down_exps.weight",
+      "bytes": 1277165568,
+      "offset": 19856836320
+    },
+    {
+      "index": 504,
+      "name": "blk.52.ffn_up_exps.weight",
+      "bytes": 1277165568,
+      "offset": 21134001888
+    },
+    {
+      "index": 505,
+      "name": "blk.52.exp_probs_b.bias",
+      "bytes": 512,
+      "offset": 22411167456
+    },
+    {
+      "index": 506,
+      "name": "blk.52.ffn_gate_inp.weight",
+      "bytes": 688128,
+      "offset": 22411167968
+    },
+    {
+      "index": 507,
+      "name": "blk.52.ffn_down_shexp.weight",
+      "bytes": 19955712,
+      "offset": 22411856096
+    },
+    {
+      "index": 508,
+      "name": "blk.52.ffn_up_shexp.weight",
+      "bytes": 19955712,
+      "offset": 22431811808
+    },
+    {
+      "index": 509,
+      "name": "blk.52.post_attention_norm.weight",
+      "bytes": 10752,
+      "offset": 22451767520
+    }
+  ]
+}

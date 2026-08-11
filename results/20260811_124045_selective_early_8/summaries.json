@@ -1,0 +1,38 @@
+[
+  {
+    "completion_tokens": 512,
+    "content_chars": 1234,
+    "decode_tps": 39.806199784517844,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/coding.txt",
+    "prompt_ms": 31854.264,
+    "prompt_tokens": 15960,
+    "prompt_tps": 501.0318241852959,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_124045_selective_early_8/coding-off-r1.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 44795.77,
+    "workload": "coding",
+    "rep": 1
+  },
+  {
+    "completion_tokens": 512,
+    "content_chars": 1234,
+    "decode_tps": 41.111025463141395,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/coding.txt",
+    "prompt_ms": 68.702,
+    "prompt_tokens": 4,
+    "prompt_tps": 58.22246805042066,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_124045_selective_early_8/coding-off-r2.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 12536.91,
+    "workload": "coding",
+    "rep": 2
+  }
+]

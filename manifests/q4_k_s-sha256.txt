@@ -1,0 +1,1 @@
+d1dd036281235dbdf1acc370634d209f6c3412f576bad2773d1e24a9d35f9d51  /home/mobrienv/code/nemotron35-bench/models/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-Q4_K_S.gguf

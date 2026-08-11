@@ -1,0 +1,20 @@
+[
+  {
+    "completion_tokens": 256,
+    "content_chars": 1103,
+    "decode_tps": 8.085166618545188,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/short.txt",
+    "prompt_ms": 6528.453,
+    "prompt_tokens": 1062,
+    "prompt_tps": 162.67253513198304,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_123356_cuda_cpu_moe_t24/short-off-r1.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 38210.02,
+    "workload": "short",
+    "rep": 1
+  }
+]

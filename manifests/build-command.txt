@@ -1,0 +1,11 @@
+git -C /home/mobrienv/src/llama.cpp merge --ff-only origin/master
+cmake -S /home/mobrienv/src/llama.cpp -B /home/mobrienv/src/llama.cpp/build-cuvk -G Ninja \
+  -DGGML_CUDA=ON \
+  -DGGML_VULKAN=ON \
+  -DGGML_CUDA_ARCHITECTURES=120 \
+  -DGGML_NATIVE=ON \
+  -DCMAKE_BUILD_TYPE=Release
+ninja -C /home/mobrienv/src/llama.cpp/build-cuvk llama-server llama-bench llama-cli llama-gguf
+
+# Result
+# llama.cpp version 258, commit ebb546b

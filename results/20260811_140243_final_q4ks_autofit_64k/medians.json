@@ -1,0 +1,20 @@
+{
+  "short": {
+    "decode_tps": 48.94077630777019,
+    "prompt_tps": 283.84966562667523,
+    "prompt_ms": 3794.262,
+    "wall_ms": 9167.97
+  },
+  "coding": {
+    "decode_tps": 45.46424051009457,
+    "prompt_tps": 423.40748398041205,
+    "prompt_ms": 37727.25,
+    "wall_ms": 49146.98
+  },
+  "tool": {
+    "decode_tps": 51.09000984154926,
+    "prompt_tps": 93.10120100549295,
+    "prompt_ms": 925.093,
+    "wall_ms": 2052.7
+  }
+}

@@ -1,0 +1,42 @@
+0.00.450.336 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.567.522 I srv          init: The UI is disabled
+0.00.567.526 I srv          init: Use --ui/--no-ui (or deprecated --webui/--no-webui) to enable/disable
+0.00.567.626 W srv  llama_server: -----------------
+0.00.567.627 W srv  llama_server: CORS is set to allow all origins ('*') and no API key is set
+0.00.567.627 W srv  llama_server: this can be a security risk (cross-origin attacks)
+0.00.567.627 W srv  llama_server: more info: https://github.com/ggml-org/llama.cpp/pull/25655
+0.00.567.628 W srv  llama_server: -----------------
+0.00.569.368 I srv    load_model: loading model '/home/mobrienv/code/nemotron35-bench/models/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4.gguf'
+0.00.905.583 W llama_model_loader: tensor overrides to CPU are used with mmap enabled - consider using --no-mmap for better performance
+0.00.907.452 W model has unused tensor blk.52.nextn.enorm.weight (size = 10752 bytes) -- ignoring
+0.00.907.456 W model has unused tensor blk.52.nextn.hnorm.weight (size = 10752 bytes) -- ignoring
+0.00.907.459 W model has unused tensor blk.52.nextn.eh_proj.weight (size = 28901376 bytes) -- ignoring
+0.00.907.461 W model has unused tensor blk.52.nextn.shared_head_norm.weight (size = 10752 bytes) -- ignoring
+0.00.907.464 W model has unused tensor blk.52.attn_norm.weight (size = 10752 bytes) -- ignoring
+0.00.907.468 W model has unused tensor blk.52.attn_q.weight (size = 22020096 bytes) -- ignoring
+0.00.907.470 W model has unused tensor blk.52.attn_k.weight (size = 1376256 bytes) -- ignoring
+0.00.907.472 W model has unused tensor blk.52.attn_v.weight (size = 1376256 bytes) -- ignoring
+0.00.907.479 W model has unused tensor blk.52.attn_output.weight (size = 22020096 bytes) -- ignoring
+0.00.907.484 W model has unused tensor blk.52.post_attention_norm.weight (size = 10752 bytes) -- ignoring
+0.00.907.486 W model has unused tensor blk.52.ffn_gate_inp.weight (size = 688128 bytes) -- ignoring
+0.00.907.488 W model has unused tensor blk.52.exp_probs_b.bias (size = 512 bytes) -- ignoring
+0.00.907.492 W model has unused tensor blk.52.ffn_down_exps.weight (size = 1277165568 bytes) -- ignoring
+0.00.907.494 W model has unused tensor blk.52.ffn_up_exps.weight (size = 1277165568 bytes) -- ignoring
+0.00.907.496 W model has unused tensor blk.52.ffn_down_shexp.weight (size = 19955712 bytes) -- ignoring
+0.00.907.498 W model has unused tensor blk.52.ffn_up_shexp.weight (size = 19955712 bytes) -- ignoring
+0.07.741.157 I srv    load_model: initializing, n_slots = 1, n_ctx_slot = 262144, kv_unified = 'false'
+0.07.750.491 I srv          init: chat template supports preserving reasoning, consider enabling it via --reasoning-preserve
+0.07.750.570 I srv  llama_server: model loaded
+0.07.750.591 I srv  llama_server: listening on http://127.0.0.1:8080
+0.07.750.591 W srv  llama_server: NOTICE: server default port will be changed to :9931 in a future release
+0.07.750.592 W srv  llama_server:         ref: https://github.com/ggml-org/llama.cpp/pull/26508
+0.08.057.603 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+0.08.057.759 I slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+0.11.196.922 I slot print_timing: id  0 | task 0 | prompt processing, n_tokens =   1058, progress = 1.00, t =   3.14 s / 337.04 tokens per second
+0.14.273.163 I slot print_timing: id  0 | task 0 | n_decoded =    137, tg =  45.63 t/s, tg_3s =  45.63 t/s
+0.16.904.821 I slot print_timing: id  0 | task 0 | prompt eval time =    3213.07 ms /  1062 tokens (    3.03 ms per token,   330.52 tokens per second)
+0.16.904.827 I slot print_timing: id  0 | task 0 |        eval time =    5633.94 ms /   256 tokens (   22.01 ms per token,    45.44 tokens per second)
+0.16.904.828 I slot print_timing: id  0 | task 0 |       total time =    8847.01 ms /  1318 tokens
+0.16.904.880 I slot print_timing: id  0 | task 0 |    graphs reused =        254
+0.16.908.412 I slot      release: id  0 | task 0 | stop processing: n_tokens = 1317, truncated = 0
+0.16.939.447 I srv    operator(): operator(): cleaning up before exit...

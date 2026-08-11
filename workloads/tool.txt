@@ -1,0 +1,1 @@
+Use the read_file tool to inspect src/models/nemotron-h.cpp lines 260 through 310 before answering. After the tool result, explain how routed and shared expert outputs are combined. Do not answer from memory; make the tool call first.
