@@ -29,6 +29,23 @@ flash attention, 64K context.
 Q4_K_S decodes 11.6% faster but prefills ~20% slower — and prefill dominates
 coding-agent turns. NVFP4 wins end-to-end by 13.6% with more memory headroom.
 
+## Concurrency
+
+The server runs **4 slots × 128K context** (`-np 4 -c 524288`) in production —
+measured stable at 10.6 GiB VRAM (12 GiB GPU) with 18 GiB host RAM free.
+Aggregate throughput rises with concurrency (batching amortizes the CPU-MoE
+path): ~50 t/s at 4 concurrent users, ~14 t/s per user (small prompts) or
+~6 t/s per user (4K-token prompts). Zero failures across burst and heavy-prompt
+tests. The six-Attention-block hybrid keeps the KV cache tiny, which is what
+makes 4×128K fit.
+
+| Config | VRAM | Concurrent OK | Per-request | Aggregate |
+|---|---:|---:|---:|---:|
+| `-np 1 -c 65536` | 8,990 MiB | — | 40.7 t/s | 40.7 t/s |
+| `-np 4 -c 262144` (4×64K) | 9,690 MiB | 4/4 | ~14.5 t/s | 50.7 t/s |
+| `-np 4 -c 524288` (4×128K) | 10,636 MiB | 4/4 | ~8.5–14 t/s | ~50 t/s |
+| `-np 6 -c 393216` (6×64K) | 10,132 MiB | 6/6 | ~10 t/s | 53.9 t/s |
+
 ## Quick start
 
 ```bash

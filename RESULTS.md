@@ -37,7 +37,7 @@ ninja -C /home/mobrienv/src/llama.cpp/build-cuvk \
   -m /home/mobrienv/code/nemotron35-bench/models/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4.gguf \
   --host 127.0.0.1 --port 8080 --no-webui --jinja \
   --device CUDA0 -ngl all -fit off \
-  -t 12 -tb 12 -c 65536 -np 1 \
+  -t 12 -tb 12 -c 524288 -np 4 \
   -b 2048 -ub 512 -fa on -ctk q8_0 -ctv q8_0 \
   -ot '^blk\.(20|22|24|27|29|31|34|36|38|40|43|45|47|49|51)\.ffn_(up|down)_exps\.weight$=CPU'
 ```
