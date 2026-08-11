@@ -31,20 +31,31 @@ coding-agent turns. NVFP4 wins end-to-end by 13.6% with more memory headroom.
 
 ## Concurrency
 
-The server runs **4 slots × 128K context** (`-np 4 -c 524288`) in production —
-measured stable at 10.6 GiB VRAM (12 GiB GPU) with 18 GiB host RAM free.
-Aggregate throughput rises with concurrency (batching amortizes the CPU-MoE
-path): ~50 t/s at 4 concurrent users, ~14 t/s per user (small prompts) or
-~6 t/s per user (4K-token prompts). Zero failures across burst and heavy-prompt
-tests. The six-Attention-block hybrid keeps the KV cache tiny, which is what
-makes 4×128K fit.
+The server runs **4 slots × 64K context** (`-np 4 -c 262144`) with **early10
+placement** (10 routed-expert blocks on the RTX) in production — measured
+stable at 10.99 GiB VRAM (12 GiB GPU) with 18 GiB host RAM free. Placement is
+the dominant speed lever on this hardware:
+
+| Placement (1-slot 64K) | Decode | Prefill | Coding wall | VRAM |
+|---|---:|---:|---:|---:|
+| early8 (8 blocks GPU) | 40.7 t/s | 528.9 t/s | 43.3 s | 8,990 MiB |
+| early10 (10 blocks GPU) | 52.4 t/s | 636.3 t/s | 34.8 s | 10,362 MiB |
+| **early12 (12 blocks GPU)** | **57.4 t/s** | **732.0 t/s** | **31.0 s** | 11,732 MiB |
+
+early12 closes ~89% of the gap to the local Qwen3.6 decode (64.6 t/s), but the
+12 GB VRAM wall forces a trade: multi-slot compute buffers mean 4×128K only
+fits early8, 4×64K fits early10, and early12 is single-slot only. Aggregate
+throughput rises with concurrency (batching amortizes the CPU-MoE path):
+~50–56 t/s aggregate at 4 concurrent users. The six-Attention-block hybrid
+keeps the KV cache tiny.
 
 | Config | VRAM | Concurrent OK | Per-request | Aggregate |
 |---|---:|---:|---:|---:|
-| `-np 1 -c 65536` | 8,990 MiB | — | 40.7 t/s | 40.7 t/s |
-| `-np 4 -c 262144` (4×64K) | 9,690 MiB | 4/4 | ~14.5 t/s | 50.7 t/s |
-| `-np 4 -c 524288` (4×128K) | 10,636 MiB | 4/4 | ~8.5–14 t/s | ~50 t/s |
-| `-np 6 -c 393216` (6×64K) | 10,132 MiB | 6/6 | ~10 t/s | 53.9 t/s |
+| `-np 1 -c 65536` early12 | 11,732 MiB | — | 57.4 t/s | 57.4 t/s |
+| `-np 4 -c 262144` early10 (prod) | 10,992 MiB | 4/4 | ~13–17 t/s | ~50–56 t/s |
+| `-np 4 -c 262144` early8 | 9,690 MiB | 4/4 | ~14.5 t/s | 50.7 t/s |
+| `-np 4 -c 524288` early8 (4×128K) | 10,636 MiB | 4/4 | ~8.5–14 t/s | ~50 t/s |
+| `-np 6 -c 393216` early8 (6×64K) | 10,132 MiB | 6/6 | ~10 t/s | 53.9 t/s |
 
 ## Quick start
 

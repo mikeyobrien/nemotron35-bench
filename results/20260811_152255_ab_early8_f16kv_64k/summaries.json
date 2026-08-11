@@ -1,0 +1,191 @@
+[
+  {
+    "completion_tokens": 256,
+    "content_chars": 1128,
+    "decode_tps": 50.314920299986994,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/short.txt",
+    "prompt_ms": 4366.004,
+    "prompt_tokens": 1082,
+    "prompt_tps": 247.823868232828,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_152255_ab_early8_f16kv_64k/short-off-r1.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 9486.23,
+    "workload": "short",
+    "rep": 1
+  },
+  {
+    "completion_tokens": 256,
+    "content_chars": 1070,
+    "decode_tps": 49.42490455297973,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/short.txt",
+    "prompt_ms": 2422.54,
+    "prompt_tokens": 1077,
+    "prompt_tps": 444.57470258489025,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_152255_ab_early8_f16kv_64k/short-off-r2.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 7664.3,
+    "workload": "short",
+    "rep": 2
+  },
+  {
+    "completion_tokens": 256,
+    "content_chars": 1127,
+    "decode_tps": 47.87455669282562,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/short.txt",
+    "prompt_ms": 2456.28,
+    "prompt_tokens": 1077,
+    "prompt_tps": 438.46792710928713,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_152255_ab_early8_f16kv_64k/short-off-r3.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 7880.41,
+    "workload": "short",
+    "rep": 3
+  },
+  {
+    "completion_tokens": 512,
+    "content_chars": 1439,
+    "decode_tps": 48.30040588378186,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/coding.txt",
+    "prompt_ms": 28578.33,
+    "prompt_tokens": 15974,
+    "prompt_tps": 558.9549844235125,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_152255_ab_early8_f16kv_64k/coding-off-r1.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 39302.46,
+    "workload": "coding",
+    "rep": 1
+  },
+  {
+    "completion_tokens": 512,
+    "content_chars": 1493,
+    "decode_tps": 50.72267929872726,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/coding.txt",
+    "prompt_ms": 28244.617,
+    "prompt_tokens": 15974,
+    "prompt_tps": 565.5590939682418,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_152255_ab_early8_f16kv_64k/coding-off-r2.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 38475.49,
+    "workload": "coding",
+    "rep": 2
+  },
+  {
+    "completion_tokens": 512,
+    "content_chars": 1711,
+    "decode_tps": 50.049903272696696,
+    "finish_reason": "length",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/coding.txt",
+    "prompt_ms": 28152.629,
+    "prompt_tokens": 15974,
+    "prompt_tps": 567.4070439389515,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_152255_ab_early8_f16kv_64k/coding-off-r3.json",
+    "thinking": "off",
+    "tool_calls": [],
+    "tools": false,
+    "wall_ms": 38460.59,
+    "workload": "coding",
+    "rep": 3
+  },
+  {
+    "completion_tokens": 57,
+    "content_chars": 0,
+    "decode_tps": 54.217606644605496,
+    "finish_reason": "tool_calls",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/tool.txt",
+    "prompt_ms": 1595.798,
+    "prompt_tokens": 392,
+    "prompt_tps": 245.64512551087293,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_152255_ab_early8_f16kv_64k/tool-off-r1.json",
+    "thinking": "off",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{\"path\":\"src/models/nemotron-h.cpp\",\"line_start\":260,\"line_end\":310}",
+          "name": "read_file"
+        },
+        "id": "aIKMRx1NM9SsP5lm3NoPD6Cn3r1jq3Tm",
+        "type": "function"
+      }
+    ],
+    "tools": true,
+    "wall_ms": 2769.64,
+    "workload": "tool",
+    "rep": 1
+  },
+  {
+    "completion_tokens": 57,
+    "content_chars": 0,
+    "decode_tps": 53.61309965546529,
+    "finish_reason": "tool_calls",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/tool.txt",
+    "prompt_ms": 747.069,
+    "prompt_tokens": 84,
+    "prompt_tps": 112.4394132268907,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_152255_ab_early8_f16kv_64k/tool-off-r2.json",
+    "thinking": "off",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{\"path\":\"src/models/nemotron-h.cpp\",\"line_start\":260,\"line_end\":310}",
+          "name": "read_file"
+        },
+        "id": "GuBAKTGgnkwmnh3N0GlJ7He15MD1mt9C",
+        "type": "function"
+      }
+    ],
+    "tools": true,
+    "wall_ms": 1817.29,
+    "workload": "tool",
+    "rep": 2
+  },
+  {
+    "completion_tokens": 57,
+    "content_chars": 0,
+    "decode_tps": 53.233416389915156,
+    "finish_reason": "tool_calls",
+    "prompt": "/home/mobrienv/code/nemotron35-bench/workloads/tool.txt",
+    "prompt_ms": 764.052,
+    "prompt_tokens": 84,
+    "prompt_tps": 109.94016114086475,
+    "reasoning_chars": 0,
+    "response_file": "/home/mobrienv/code/nemotron35-bench/results/20260811_152255_ab_early8_f16kv_64k/tool-off-r3.json",
+    "thinking": "off",
+    "tool_calls": [
+      {
+        "function": {
+          "arguments": "{\"path\":\"src/models/nemotron-h.cpp\",\"line_start\":260,\"line_end\":310}",
+          "name": "read_file"
+        },
+        "id": "s8IKXDU7utvGv0CRcZaapDBo7KZoQDfi",
+        "type": "function"
+      }
+    ],
+    "tools": true,
+    "wall_ms": 1842.38,
+    "workload": "tool",
+    "rep": 3
+  }
+]

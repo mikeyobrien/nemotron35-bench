@@ -37,13 +37,13 @@ ninja -C /home/mobrienv/src/llama.cpp/build-cuvk \
   -m /home/mobrienv/code/nemotron35-bench/models/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4.gguf \
   --host 127.0.0.1 --port 8080 --no-webui --jinja \
   --device CUDA0 -ngl all -fit off \
-  -t 12 -tb 12 -c 524288 -np 4 \
+  -t 12 -tb 12 -c 262144 -np 4 \
   -b 2048 -ub 512 -fa on -ctk q8_0 -ctv q8_0 \
-  -ot '^blk\.(20|22|24|27|29|31|34|36|38|40|43|45|47|49|51)\.ffn_(up|down)_exps\.weight$=CPU'
+  -ot '^blk\.(24|27|29|31|34|36|38|40|43|45|47|49|51)\.ffn_(up|down)_exps\.weight$=CPU'
 ```
 
-RTX routed-expert blocks: `1, 3, 6, 8, 10, 13, 15, 17`.  
-CPU routed-expert blocks: `20, 22, 24, 27, 29, 31, 34, 36, 38, 40, 43, 45, 47, 49, 51`.
+RTX routed-expert blocks: `1, 3, 6, 8, 10, 13, 15, 17, 20, 22` (early10).  
+CPU routed-expert blocks: `24, 27, 29, 31, 34, 36, 38, 40, 43, 45, 47, 49, 51`.
 
 Do not omit `-fit off`; otherwise auto-fit can silently change placement. Do not set `VK_DRIVER_FILES=radeon_icd.x86_64.json`. The recommended command does not use the Radeon.
 
